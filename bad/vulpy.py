@@ -12,6 +12,14 @@ from mod_mfa import mod_mfa
 from mod_posts import mod_posts
 from mod_user import mod_user
 
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+GITHUB_TOKEN = "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ0123456789"
+
+GOOGLE_API_KEY = "AIzaSyDCvp5MTJLUdtBYEKYWXJrlLju3ysphChw"
+
 app = Flask('vulpy')
 app.config['SECRET_KEY'] = 'aaaaaaa'
 
