@@ -6,4 +6,4 @@ jsonschema
 PyJWT==1.5.0
 pyotp
 qrcode
-requests
+requests==2.20
